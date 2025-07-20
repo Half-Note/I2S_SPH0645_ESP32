@@ -61,12 +61,20 @@ The microphone output is uncalibrated, but reported dBA values closely match rea
 
 ## Calibration Tips
 
-To better match real dBA values:
+To better align the microphone's output with real-world dBA levels:
 
-- Modify `dbA_offset` to align with your reference meter.
-- Set `gain_adjustment` if needed based on amplitude discrepancy.
-- Toggle `use_rms` if you prefer RMS-based SPL approximation.
+- Adjust the `dbA_offset` value to match readings from a reference sound level meter or app.
+- Use `gain_adjustment` to manually scale the amplitude if the signal appears too weak or strong.
+- Toggle `use_rms` to switch between **RMS-based SPL** and **Peak-to-Peak amplitude** calculation. RMS may provide a more consistent reading for continuous sounds.
 
+![Test Results](./Circuit_Diagram/Result.png)
+
+### Example Observations
+
+- In a quiet room with minimal ambient noise, the reported sound level was approximately **40 dBA**.
+- When playing a **1000 Hz sine wave** at full volume from [onlinetonegenerator.com](https://onlinetonegenerator.com/), the reported values were around **72–74 dBA**.
+
+> These values are approximate and not from a calibrated reference instrument, but they demonstrate relative sensitivity and responsiveness of the sensor setup.
 ---
 
 ## License
