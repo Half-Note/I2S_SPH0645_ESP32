@@ -1,4 +1,6 @@
 # I2S SPH0645 Microphone with ESP32
+![Static Badge](https://img.shields.io/badge/version-v1.0-blue)
+[![ChatGPT](https://img.shields.io/badge/ChatGPT-74aa9c?logo=openai&logoColor=white)](#)
 
 This repository provides example projects for reading audio data from the SPH0645 MEMS I2S microphone using an ESP32. It includes:
 
@@ -69,16 +71,19 @@ To better match real dBA values:
 
 ## License
 
-MIT License!!
+This project is licensed under the **MIT License** — you are free to use, modify, and distribute it with proper attribution.  
+See the [LICENSE](LICENSE) file for details.
 
 ---
 
 ## Contributions
 
-Feel free to fork, open issues, or suggest improvements to enhance this library!
+Contributions are welcome!  
+Feel free to **fork** the repository, **open issues**, or submit **pull requests** to improve this library.
 
+---
 
-Sources / References
+## Sources / References
 
 These resources were helpful during development and testing:
 
